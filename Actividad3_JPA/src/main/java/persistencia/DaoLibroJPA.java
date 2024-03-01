@@ -44,8 +44,7 @@ public class DaoLibroJPA implements DaoLibro {
 			return false;
 		}
 
-		// Siempre que cambiemos la BBDD en JPA es obligatorio abrir una
-		// transacción
+		// Siempre que cambiemos la BBDD en JPA es obligatorio abrir una transacción
 		EntityTransaction et = em.getTransaction();
 		et.begin();
 		em.persist(libro);
