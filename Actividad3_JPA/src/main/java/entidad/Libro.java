@@ -22,7 +22,7 @@ import jakarta.persistence.Table;
 @Table(name = "libros")
 public class Libro {
 	
-	@Id
+	@Id 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String name;

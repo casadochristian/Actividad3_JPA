@@ -15,7 +15,7 @@ public class DaoEditorialJPA implements DaoEditorial{
 	private EntityManager em;
 	
 	private boolean abrirConexion(){
-		try {
+		try { 
 			EntityManagerFactory factoria = Persistence.createEntityManagerFactory("ActividadJPA");
 			em = factoria.createEntityManager();
 			return true;

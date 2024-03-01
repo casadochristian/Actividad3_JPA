@@ -17,7 +17,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-public class Main {
+public class Main { 
 
 	private static GestorAutor ga = new GestorAutor();
 	private static GestorEditorial ge = new GestorEditorial();

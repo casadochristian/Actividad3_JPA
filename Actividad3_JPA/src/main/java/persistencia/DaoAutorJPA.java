@@ -14,10 +14,10 @@ import persistencia.interfaz.DaoAutor;
 
 public class DaoAutorJPA implements DaoAutor {
 
-	private EntityManager em;
-
+	private EntityManager em;  
+ 
 	private boolean abrirConexion() {
-		try {
+		try { 
 			EntityManagerFactory factoria = Persistence.createEntityManagerFactory("ActividadJPA");
 			em = factoria.createEntityManager();
 			return true;

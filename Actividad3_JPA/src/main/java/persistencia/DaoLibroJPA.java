@@ -18,7 +18,7 @@ public class DaoLibroJPA implements DaoLibro {
 	private EntityManager em;
 
 	private boolean abrirConexion() {
-		try {
+		try { 
 			EntityManagerFactory factoria = Persistence.createEntityManagerFactory("ActividadJPA");
 			em = factoria.createEntityManager();
 			return true;
