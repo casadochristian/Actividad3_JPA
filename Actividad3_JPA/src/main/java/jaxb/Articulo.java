@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
 //Por defecto, cuando serializamos un objeto, el orden de los nodos elemento
 //Podemos hacer que las etiquetas salgan en un determinado orden con la siguiente
 //anotación. Es opcional
-@XmlType(propOrder = {
+@XmlType(propOrder = {   
 		"id",
 		"name", 
 		"description",

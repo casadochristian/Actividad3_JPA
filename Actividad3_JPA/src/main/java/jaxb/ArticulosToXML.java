@@ -20,9 +20,9 @@ public class ArticulosToXML {
 		} catch (JAXBException e) {
 			System.out.println("Error creando el contexto");
 			e.printStackTrace();
-			return;
+			return; 
 		}
-
+ 
 		//Creamos el objeto capaz de convertir
 		Marshaller m;
 

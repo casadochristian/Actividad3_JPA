@@ -26,7 +26,7 @@ public class Articulos {
 	@XmlElementWrapper(name = "Lista_de_articulos")
 	public List<Articulo> getListaArticulos() {
 		return listaArticulos;
-	}
+	} 
 
 	public void setListaArticulos(List<Articulo> listaArticulos) {
 		this.listaArticulos = listaArticulos;
